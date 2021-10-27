@@ -31,17 +31,6 @@ exclude:
   - not-pure-poole.gemspec
 
 # Optimize Jekyl SEO Tag
-twitter:
-  username: vszhub
-  card: summary
-logo: logo.png
-social:
-  name: 조창제
-  links:
-    - https://twitter.com/vszhub
-    - https://github.com/qkdrk7777775
-google_site_verification: xxxxx
-lang: en
 
 sass:
   sass_dir: _sass
