@@ -1,7 +1,10 @@
 # Setup
-title: Not Pure Poole
+title: Data Analysis & Visualization
+subtitle: "The devil is in the detail."
+email: qkdrk7777775@gmail.com
+name: 조창제
 description: A simple, beautiful, and powerful Jekyll theme for blogs
-url: https://vszhub.github.io
+url: https://qkdrk7777775.github.io
 avatar: /avatar.jpeg
 paginate: 5
 permalink: pretty
