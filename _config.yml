@@ -3,7 +3,7 @@ title: Data Analysis & Visualization
 subtitle: "The devil is in the detail."
 email: qkdrk7777775@gmail.com
 name: 조창제
-description: 흠
+description: AI, R, Python, QGIS, UBUNTU를 공부하는 블로그입니다.
 url: https://qkdrk7777775.github.io
 avatar: /avatar.jpeg
 paginate: 5
@@ -60,3 +60,52 @@ author:
   name: 조창제
   url: https://github.com/qkdrk7777775/
   email: qkdrk7777775@gmail.com
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: qkdrk7777775@gmail.com
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "http://ducj.tistory.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/qkdrk7777775"
+footer:
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: qkdrk7777775@gmail.com
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "http://ducj.tistory.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/qkdrk7777775"
+
+#add https://honbabzone.com/jekyll/start-gitHubBlog/
+minimal_mistakes_skin    : "default" # 태마 색 설정 "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise" 
+locale                   : "ko-KR"
+repository 	  : "qkdrk7777775/qkdrk7777775.github.com"
+
+# Defaults Post들에 적용될 기본 설정들
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
